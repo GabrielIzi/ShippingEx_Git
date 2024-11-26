@@ -44,7 +44,7 @@ function Home(){
                             <h2>Informações de Endereço</h2>
                             <div class="label-float">
                                 <input type="text" placeholder=" " required/>
-                                <label>CEP Remetente</label>
+                                <label>CEP Remetentee</label>
                             </div>
                             <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="a_black">Descobrir CEP</a>
                             <div class="label-float">
