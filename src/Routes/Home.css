@@ -1,0 +1,312 @@
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2a2a; 
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3a3737; 
+    border-radius: 50px;
+}
+
+body{
+    background-color: #1E1E1E;
+    font-family: "Inconsolata", monospace;
+}
+
+.PagBody_1{
+    width: 100vh;
+    height: 80vh;
+}
+
+.ItensPrinc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 150%; 
+    margin: 18vh 26vh;
+}
+
+.ItensPrinc h1 {
+    max-width: 70vh; 
+    font-size: 4vh; 
+    line-height: 1.5; 
+    text-align: left;
+}
+
+.ItensPrinc img {
+    max-width: 50vh;
+    height: auto;
+    object-fit: contain;
+    background-color: #d9d9d900;
+    border-radius: 100%;
+    filter: drop-shadow(-25px -8px 6px #020202da);
+}
+
+.PagBody_2{
+    background-color: #d9d9d9;
+    height: 100vh;
+    width: 100%;
+    filter: drop-shadow(1000px -100px 30vh #d9d9d9);
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.PagBody_2 h1{
+    font-size: 5vh;
+    text-align: center;
+    padding: 5vh 0;
+    color: #1E1E1E;
+}
+
+.PainelCalculadora{
+    background-color: #d1d1d1;
+    border-radius: 2vh;
+    width: 150vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.685);
+}
+
+.PainelCalculadora h2{
+    color: #1E1E1E;
+}
+
+.Infos{
+    display: flex;
+    padding: 0 10vh;
+    gap: 15vh;
+}
+
+.InfoEnd{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding-bottom: 5vh;
+}
+
+.InfoEnd a{
+    text-align: right;
+    padding-bottom: 2vh;
+    color: #006aff;
+    font-size: 2vh;
+}
+
+.label-float {
+    position: relative;
+    padding-top: 13px;
+}
+
+.label-float input {
+    border: 1px solid rgb(150, 149, 149);
+    border-radius: 5px;
+    outline: none;
+    min-width: 250px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: all .1s linear;
+    background-color: #d1d1d1;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+}
+
+.label-float input:focus {
+    border: 2px solid #1E1E1E;
+}
+
+.label-float input::placeholder {
+    color: transparent;
+}
+
+.label-float label {
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 15px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    background-color: #d1d1d1;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.label-float input:focus:required:invalid {
+    border: 2px solid red;
+}
+
+.label-float input:focus+label,
+.label-float input:not(:placeholder-shown)+label {
+    font-size: 13px;
+    top: 0;
+    color: #1E1E1E;
+}
+
+.InfoPacote_2, .InfoPacote_3{
+    display: flex;
+    gap: 2vh;
+}
+
+.InfoPacote_2 input{
+    padding: 10px 5px;
+    min-width: 50px;
+    width: 22vh;
+}
+
+.InfoPacote_3 input{
+    padding: 10px 5px;
+    min-width: 50px;
+    width: 35vh;
+}
+
+.CalOps{
+    display: flex;
+    justify-content: center;
+    gap: 70%;
+    padding-bottom: 4vh;
+}
+
+.BtnCalcular{
+    padding: 10px 20px;
+    border: #1E1E1E 2px solid;
+    color: #1E1E1E;
+    border-radius: 10px;
+    background-color: #d1d1d1;
+    transition: 0.5s;
+}
+
+.BtnCalcular:hover{
+    cursor: pointer;
+    background-color: #1E1E1E;
+    color: #d1d1d1;
+}
+
+.BtnLimpar{
+    background-color: #d1d1d1a1;
+    border: 0;
+    font-size: 3vh;
+    color: #1e1e1e8f;
+}
+
+.BtnLimpar:hover{
+    cursor: pointer;
+}
+
+.PagBody_3{
+    background-color: #d9d9d9;
+    padding: 5vh 10vh;
+}
+
+.PagBody_3 h2{
+    color: #1E1E1E;
+    text-align: center;
+    padding: 2vh;
+    margin: 0;
+    font-size: 5vh;
+}
+
+.PagBodyPart1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh;
+    align-items: center;
+}
+
+.PagBodyPart2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15vh;
+    align-items: center;
+}
+
+.PagBodyPart1 img{
+    width: 35vh;
+    border-radius: 10%;
+    margin-left: 10vh;
+}
+
+.PagBodyPart2 img{
+    width: 35vh;
+    border-radius: 10%;
+    margin-right: 10vh;
+}
+
+.PagBody_5{
+    background-color: #d9d9d9;
+    padding: 0;
+    padding-bottom: 5vh;
+    width: 100%;
+}
+
+.Imgs_Parceiros{
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    padding-bottom: 5vh;
+    margin: 0 20vh;
+}
+
+.PagBody_5 img{
+    width: 20vh;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.PagBody_5 img:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.PagBody_4{
+    text-align: center;
+    margin: 10vh 10vh;
+    background-color: #1E1E1E;
+}
+
+.PagBody_4 p:nth-of-type(1){
+    font-size: 5vh;
+    color: #d9d9d9;
+    border-left: #d9d9d9 2px solid;
+    padding: 5vh 0vh;
+}
+
+.PagBody_4 p:nth-of-type(2){
+    font-size: 5vh;
+    color: #d9d9d9;
+    border-right: #d9d9d9 2px solid;
+    padding: 5vh 0vh;
+}
+
+@media (max-width: 768px){
+    .logo{
+        display: none;
+    }
+    .ItensPrinc{
+        width: 100%;
+        margin-top: 30vh;
+    }
+    .PainelCalculadora{
+        width: 90%;
+    }
+    .InfoEnd h2{
+        font-size: 2vh;
+    }
+    .Infos{
+        flex-direction: column;
+        gap: 0;
+    }
+    .InfoPacote_2, .InfoPacote_3{
+        flex-direction: column;
+    }
+    .CalOps{
+        gap: 20%;
+    }
+}

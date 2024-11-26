@@ -1,0 +1,158 @@
+.Login {
+    display: flex;
+    height: 100vh;
+}
+
+.Background {
+    background-image: url('./assets/background_login.png');
+    background-size: cover;
+    background-position: 0vh;
+    height: 100%;
+    width: 70%;
+    opacity: 0.9;
+}
+
+.PainelLogin {
+    width: 50%;
+    height: 100%;
+    background-color: #1e1e1e;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.PainelLogin img{
+    width: 20vh;
+    margin: 2vh;
+}
+
+.PainelLogin2{
+    margin-top: 15vh;
+    align-items: center;
+    margin: 0vh 10vh;
+}
+
+.PainelLogin2 h3{
+    color: #d9d9d9;
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+
+.PainelLogin2 h1{
+    color: #fff;
+    font-size: 6vh;
+    margin-top: 5vh;
+}
+
+.label_float {
+    position: relative;
+    padding-top: 13px;
+}
+
+.label_float input {
+    border: 2px solid rgb(150, 149, 149);
+    border-radius: 5px;
+    outline: none;
+    min-width: 370px;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: all .1s linear;
+    background-color: #1E1E1E;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    color: #fff;
+}
+
+.label_float input:focus {
+    border: 2px solid #fff;
+}
+
+.label_float input::placeholder {
+    color: #fff;
+}
+
+.label_float label {
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 15px;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    -moz-transition: all .1s linear;
+    background-color: #1E1E1E;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.label_float input:focus:required:invalid {
+    border: 2px solid red;
+}
+
+.label_float input:focus+label,
+.label_float input:not(:placeholder-shown)+label {
+    font-size: 13px;
+    top: 0;
+    color: #fff;
+}
+
+.PainelLogin2 a:nth-of-type(1){
+    color: #d9d9d9;
+}
+
+.BtnLogin1{
+    margin-top: 5vh;
+    background-color: #1E1E1E;
+    color: #d9d9d9;
+    border: #d9d9d9 1px solid;
+    text-decoration: none;
+    padding: 1vh 3vh;
+    margin-left: 70%;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.BtnLogin1:hover{
+    background-color: #d9d9d9;
+    color: #1E1E1E;
+    border: #1E1E1E 1px solid;
+}
+
+.linha_com_texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative; /* Para que o texto "OU" se posicione corretamente sobre as linhas */
+    margin: 20px 0; /* Espaçamento superior e inferior */
+}
+
+.linha_esquerda, .linha_direita {
+    flex-grow: 1;
+    border: 0;
+    border-top: 1px solid #fff; /* Cria as linhas horizontais */
+}
+
+.linha_com_texto span {
+    position: absolute; /* Posiciona o texto no meio das linhas */
+    background-color: #1e1e1e; /* Adiciona um fundo branco para cobrir a linha */
+    padding: 0 10px; /* Espaço ao redor do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #fff; /* Cor do texto */
+    font-size: 18px; /* Ajuste do tamanho da fonte, se necessário */
+}
+
+.OutrosLogins{
+    display: flex;
+    gap: 2vh;
+    justify-content: center;
+}
+
+.OutrosLogins i{
+    background-color: #d9d9d9;
+    padding: 2vh;
+    border-radius: 100%;
+    font-size: 4vh;
+}
+
+.OutrosLogins i{cursor: pointer;}
+
+

@@ -1,0 +1,115 @@
+.BtnLogin{
+    color: #d9d9d9;
+    border: #d9d9d9 1px solid;
+    border-radius: 50px;
+    padding: 1vh 3vh;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    margin-right: 5vh;
+    text-decoration: none;
+    align-items: center;
+}
+
+.BtnLogin:hover{
+    background-color: #d9d9d9;
+    color:#1C1B1B;
+    transition: 0.5s;
+}
+
+.MenuBarOps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.MenuBar {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 2vh 0vh;
+    gap: 31.7%;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    padding-bottom: 1vh;
+}
+  
+.MenuBar.scrolled {
+    padding: 0vh 0vh;
+    padding-bottom: 1vh;
+    background-color: rgba(30, 30, 30, 0.9); /* Efeito transparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicione sombra para destaque */
+}
+
+.MenuBar img{
+    margin-top: 2vh;
+    margin-left: 3vh;
+    height: 40px;
+}
+
+.MenuBarOps a{
+    color: #d9d9d9;
+    margin-top: 5vh;
+    padding-bottom: 1vh;
+    text-decoration: none;
+}
+
+.MenuBarOps p:hover{cursor: pointer;}
+
+.MenuBarOps2, .MenuBarOps3{
+    color: #d9d9d9;
+    text-decoration: none;
+}
+
+.MenuToggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    margin-right: 5vh;
+    font-size: 8vh;
+}
+
+.active {
+    color: #d9d9d9;
+    border-bottom: #d9d9d9 1.5px solid;
+    font-weight: bold;
+}
+
+@media (max-width: 780px)  {
+    .MenuToggle {
+        display: block;
+    }
+
+    .MenuBarOps {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20vh;
+        background-color: #444;
+        padding: 3vh;
+        border-radius: 5px;
+        margin-right: 5vh;
+        font-size: 5vh;
+    }
+
+    .MenuBarOps.show {
+        display: flex;
+    }
+
+    .BtnLogin {
+        display: none;
+    }
+
+    .MenuBar img{
+        width: 50%;
+        height: 60%;
+    }
+}

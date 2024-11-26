@@ -1,0 +1,136 @@
+.PagBody_1{
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+.PainelAdmin{
+    width: 80%;
+    height: 50vh;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f9f9f9;
+}
+
+.OpsPainel{
+    display: flex;
+    justify-content: space-around;
+    margin: 0vh 30%;
+    gap: 2vh;
+    margin-bottom: 2vh;
+}
+
+.VehStatus{
+    background-color: #fff;
+    padding: 2vh;
+    border-radius: 20px;
+    display: flex;
+    margin: 2vh 0;
+}
+
+.VehStatus img{
+    width: 10%;
+    height: 8%;
+    border-radius: 10px;
+    margin-right: 5vh;
+}
+
+.MenuVeh{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    text-align: center;
+}
+
+.MenuVeh a{
+    background-color:#62b664;
+    padding: 1vh 2vh;
+    margin: 1vh 0;
+    border-radius: 10vh;
+}
+
+.MenuVeh a:nth-of-type(3){
+    background-color:#aa4444;
+    padding: 1vh 2vh;
+    margin: 1vh 0;
+    border-radius: 10vh;
+}
+
+.InfosVeh a:nth-of-type(1){
+    text-decoration: underline;
+    color: orange;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+progress {
+    appearance: none; 
+    -webkit-appearance: none;
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #e0e0e0; 
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0; 
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #4caf50; 
+    border-radius: 10px 0 0 10px; 
+    transition: width 0.3s ease; 
+}
+
+progress::-moz-progress-bar {
+    background-color: #4caf50; 
+    border-radius: 10px;
+}
+
+progress::-ms-fill {
+    background-color: #4caf50; 
+    border-radius: 10px;
+}
+
+.Veiculos{
+    display: none;
+}
+
+.PainelFunci {
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    margin: 2vh 0;
+}
+
+.PainelFunci{cursor: pointer;}
+
+.PainelFunci img{
+    width: 10%;
+    height: 10%;
+    margin: 2vh;
+    border-radius: 100%;
+}
+
+.PainelFunci h2{
+    margin: 2vh 0;
+}
+
+.PainelFunci p{
+    margin: 1vh 0;
+}
+
+.InfosFunci{
+    display: flex;
+    flex-direction: column;
+}
+
