@@ -30,6 +30,7 @@ body{
     align-items: center; 
     width: 150%; 
     margin: 18vh 26vh;
+    animation: AnimHome 0.5s;
 }
 
 .ItensPrinc h1 {
@@ -308,5 +309,15 @@ body{
     }
     .CalOps{
         gap: 20%;
+    }
+}
+
+@keyframes AnimHome{
+    from{
+        transform: translateX(150px);
+        opacity: 0;
+    }to{
+        transform: translateY(0px);
+        opacity: 100%;
     }
 }

@@ -9,6 +9,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding-top: 5rem;
+    animation: AnimHome 1s;
 }
 
 .header {
@@ -50,4 +51,12 @@
 
 .content a:hover {
     text-decoration: underline;
+}
+
+@keyframes AnimHome{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 100%;
+    }
 }

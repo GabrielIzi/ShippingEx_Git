@@ -1,11 +1,11 @@
 .PagBody_1{
-    height: 100vh;
+    height: 80vh;
     padding-top: 20vh;
 }
 
 .PainelAdmin{
-    width: 80%;
-    height: 50vh;
+    width: 90%;
+    height: 60vh;
     background-color: #d9d9d9;
     border-radius: 10px;
     padding: 2vh;
@@ -16,12 +16,22 @@
     scrollbar-color: #888 #f9f9f9;
 }
 
+.PainelAdmin input{
+    padding: 1vh;
+    border-radius: 5px;
+    border: 0;
+}
+
 .OpsPainel{
     display: flex;
     justify-content: space-around;
     margin: 0vh 30%;
     gap: 2vh;
     margin-bottom: 2vh;
+}
+
+.OpsPainel a{
+    padding: 0.5vh 1vh;
 }
 
 .VehStatus{
@@ -101,10 +111,6 @@ progress::-ms-fill {
     border-radius: 10px;
 }
 
-.Veiculos{
-    display: none;
-}
-
 .PainelFunci {
     background-color: #fff;
     display: flex;
@@ -132,5 +138,70 @@ progress::-ms-fill {
 .InfosFunci{
     display: flex;
     flex-direction: column;
+    padding: 2vh;
 }
 
+.AvaStar {
+    display: flex;
+    color: #D89E1F;
+}
+
+.XAndLess{
+    display: flex;
+    gap: 2vh;
+    margin-top: 2vh;
+}
+
+.XAndLess2{
+    display: flex;
+    gap: 2vh;
+    margin-top: 2vh;
+}
+
+.XAndLess a:nth-of-type(1){
+    margin-left: 85%;
+    background-color:#aa4444;
+    padding: 2vh 3vh;
+    border-radius: 5px;
+}
+
+.XAndLess a:nth-of-type(2){
+    background-color: #4caf50;
+    padding: 2vh 3vh;
+    border-radius: 5px;
+}
+
+.OpColeta{
+    background-color: #fff;
+    display: flex;
+    border-radius: 10px;
+    margin: 2vh 0;
+    padding: 2vh;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.search_container input {
+    width: 100%;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.search_container i {
+    left: 12vh;
+    transform: translateX(170%);
+    color: #888;
+}
+
+.BtnAdd{
+    background-color: #4caf50;
+    margin-left: 90%;
+    padding: 2vh 3vh;
+    border-radius: 5px;
+}

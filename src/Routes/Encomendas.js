@@ -83,7 +83,7 @@ function Encomendas(){
             </div>
             <div className={styles.blurred_background} style={{visibility: isVisible2 ? 'visible' : 'hidden'}}>
                 <div className={styles.fixed_panel} style={{visibility: isVisible2 ? 'visible' : 'hidden'}}>
-                    <h2>🌎 Local em Tempo Real: Entregue.</h2>
+                    <h2>🌎 Local em Tempo Real: Entregue (0 Km).</h2>
                     <h3>18:20(24/11/2024) - Documento de Transporte Emitido</h3>
                     <p>🚚 São Paulo</p>
                     <h3>06:55(25/11/2024) - Em Transporte...</h3>

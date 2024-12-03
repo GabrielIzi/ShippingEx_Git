@@ -41,7 +41,7 @@
 .MenuBar.scrolled {
     padding: 0vh 0vh;
     padding-bottom: 1vh;
-    background-color: rgba(30, 30, 30, 0.9); /* Efeito transparente */
+    background-color: rgb(30, 30, 30); /* Efeito transparente */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicione sombra para destaque */
 }
 
