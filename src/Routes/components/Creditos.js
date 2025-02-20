@@ -17,7 +17,7 @@ function Creditos(){
                     <div className={styles.CreditosOps}>
                         <a href="/">Trabalhe na ShippingEx</a>
                         <a href="/">Pontos de Coleta</a>
-                        <a href="/admin">Sou Funcionario</a>
+                        <a href="/admin" style={{color: "#D89E1F"}}>Sou Funcionario</a>
                         <a href="/">Denúncia</a>
                     </div>
                 </div>

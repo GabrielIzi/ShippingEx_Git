@@ -45,6 +45,9 @@ footer i{
         text-align: right;
         margin-bottom: 2vh;
     }
+    footer{
+        width: 130vh;
+    }
     .CreditosOps{
         display: flex;
         flex-direction: column;

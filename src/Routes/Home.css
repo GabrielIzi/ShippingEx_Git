@@ -52,7 +52,7 @@ body{
 .PagBody_2{
     background-color: #d9d9d9;
     height: 100vh;
-    width: 100%;
+    width: 208vh;
     filter: drop-shadow(1000px -100px 30vh #d9d9d9);
     align-items: center;
     text-align: center;
@@ -145,9 +145,12 @@ body{
 
 .label-float input:focus+label,
 .label-float input:not(:placeholder-shown)+label {
-    font-size: 13px;
-    top: 0;
-    color: #1E1E1E;
+    @media (min-width: 768px){
+        font-size: 13px;
+        top: 0;
+        color: #1E1E1E;
+    }
+    
 }
 
 .InfoPacote_2, .InfoPacote_3{
@@ -203,6 +206,7 @@ body{
 .PagBody_3{
     background-color: #d9d9d9;
     padding: 5vh 10vh;
+    width: 188vh;
 }
 
 .PagBody_3 h2{
@@ -243,7 +247,7 @@ body{
     background-color: #d9d9d9;
     padding: 0;
     padding-bottom: 5vh;
-    width: 100%;
+    width: 208vh;
 }
 
 .Imgs_Parceiros{
@@ -270,6 +274,7 @@ body{
     text-align: center;
     margin: 10vh 10vh;
     background-color: #1E1E1E;
+    width: 188vh;
 }
 
 .PagBody_4 p:nth-of-type(1){
@@ -298,7 +303,10 @@ body{
         width: 90%;
     }
     .InfoEnd h2{
-        font-size: 2vh;
+        font-size: 4vh;
+    }
+    .InfoPacote h2{
+        font-size: 4vh;
     }
     .Infos{
         flex-direction: column;
@@ -309,6 +317,35 @@ body{
     }
     .CalOps{
         gap: 20%;
+    }
+    .PagBody_2{
+        width: 130vh;
+        height: 140vh;
+    }
+    .PagBody_3{
+        width: 110vh;
+        height: 100%;
+    }
+    .PagBody_4{
+        width: 110vh;
+        height: 140vh;
+    }
+    .PagBody_5{
+        width: 130vh;
+        height: 20vh;
+    }
+    .Imgs_Parceiros{
+        display: flex;
+        justify-content: space-around;
+        height: 8vh;
+        padding-bottom: 5vh;
+        margin: 0 20vh;
+    }
+    .PagBody_2, label{
+        font-size: 2.5vh;
+    }
+    .PagBody_5, a{
+        padding-top: 4vh;
     }
 }
 
