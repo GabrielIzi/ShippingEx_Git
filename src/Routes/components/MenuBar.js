@@ -35,6 +35,14 @@ function MenuBar(){
                 >
                 <img src={logo} alt="Logo da Empresa" />
                 <div className={`${styles.MenuBarOps} ${menuOpen ? styles.show : ""}`}>
+                    <Link
+                    to="/login"
+                    className={`${styles.MenuBarOps0} ${
+                        location.pathname === "/login" ? styles.active : ""
+                    }`}
+                    >
+                    <strong className={styles.LoginToggle} >Login</strong>
+                    </Link>
                     <a
                     href="/"
                     className={location.pathname === "/" ? styles.active : ""}

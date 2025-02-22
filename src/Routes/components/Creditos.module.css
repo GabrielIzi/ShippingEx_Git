@@ -41,12 +41,17 @@ footer i{
 
 @media (max-width: 768px){
     .social_medias{
-        width: 100%;
+        width: 95%;
         text-align: right;
         margin-bottom: 2vh;
+        font-size: 6vh;
+        
     }
     footer{
         width: 130vh;
+    }
+    footer i{
+        padding: 2vh;
     }
     .CreditosOps{
         display: flex;
@@ -57,5 +62,10 @@ footer i{
         margin: 4vh 4vh;
         margin-right: 10vh;
         gap: 2vh;
+        font-size: 3.4vh;
+    }
+    .Creditos img{
+        width: 30vh;
+        height: 10vh;
     }
 }

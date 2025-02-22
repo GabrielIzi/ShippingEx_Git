@@ -320,7 +320,7 @@ body{
     }
     .PagBody_2{
         width: 130vh;
-        height: 140vh;
+        height: 150vh;
     }
     .PagBody_3{
         width: 110vh;
@@ -338,7 +338,7 @@ body{
         display: flex;
         justify-content: space-around;
         height: 8vh;
-        padding-bottom: 5vh;
+        padding-bottom: 10vh;
         margin: 0 20vh;
     }
     .PagBody_2, label{
