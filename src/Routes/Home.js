@@ -25,13 +25,13 @@ function Home(){
             <br/>
             <section className="PagBody_1">
                 <div className="ItensPrinc">
-                    <h1 style={{fontSize: "5vh"}}>
+                    <h1>
                         <span style={{color: "#f9f9f9"}}>Envio </span>
                         <span style={{color: "#D89E1F"}}>rápido</span>
                         <span style={{color: "#f9f9f9"}}> e </span>
                         <span style={{color: "#D89E1F"}}>seguro </span>
                         <span style={{color: "#f9f9f9"}}> para todo o país.</span>
-                        <p style={{fontSize: "3vh", color: "#c9c9c9", marginTop: "2vh"}}>Descubra o futuro das entregas com a ShippingEx! Com tecnologia autônoma, garantimos eficiência, segurança e rapidez para levar suas encomendas onde for preciso. Cada entrega é monitorada em tempo real, unindo inovação e praticidade.</p>
+                        <p style={{color: "#c9c9c9", marginTop: "2vh"}}>Descubra o futuro das entregas com a ShippingEx! Com tecnologia autônoma, garantimos eficiência, segurança e rapidez para levar suas encomendas onde for preciso. Cada entrega é monitorada em tempo real, unindo inovação e praticidade.</p>
                     </h1>
                     <img src={CarImg} alt="Veiculo Autonomo" className="logo"/>
                 </div>

@@ -69,11 +69,10 @@
     display: none;
     background: none;
     border: none;
-    font-size: 1.5rem;
     color: white;
     cursor: pointer;
     margin-right: 5vh;
-    font-size: 8vh;
+    font-size: 200%;
 }
 
 .active {
@@ -99,12 +98,20 @@
         flex-direction: column;
         position: absolute;
         top: 60px;
-        right: 20vh;
+        right: 2.5vh;
         background-color: #444;
-        padding: 5vh;
+        padding: 2vh;
         border-radius: 5px;
-        margin-right: 5vh;
-        font-size: 5vh;
+        margin-right: 0vh;
+        font-size: 2vh;
+    }
+
+    .MenuBarOps a{
+        color: #d9d9d9;
+        margin-top: 0;
+        padding-bottom: 1vh;
+        padding: 2vh 1vh;
+        text-decoration: none;
     }
 
     .MenuBarOps.show {

@@ -44,28 +44,31 @@ footer i{
         width: 95%;
         text-align: right;
         margin-bottom: 2vh;
-        font-size: 6vh;
+        font-size: 60%;
         
     }
     footer{
-        width: 130vh;
+        width: 100%;
     }
     footer i{
-        padding: 2vh;
+        padding: 2%;
     }
     .CreditosOps{
         display: flex;
         flex-direction: column;
         border-left: #d9d9d9 1px solid;
-        padding: 3vh 0;
-        padding-left: 5vh;
-        margin: 4vh 4vh;
-        margin-right: 10vh;
+        padding: 5vh 0;
+        padding-left: 1.5vh;
+        margin: 3%;
         gap: 2vh;
-        font-size: 3.4vh;
+        font-size: 70%;
+    }
+    .CreditosOps a{
+        margin: 0;
+        padding: 0;
     }
     .Creditos img{
-        width: 30vh;
-        height: 10vh;
+        width: 15%;
+        height: 100%;
     }
 }
