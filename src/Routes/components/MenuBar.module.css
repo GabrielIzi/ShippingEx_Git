@@ -94,17 +94,27 @@
     }
 
     .MenuBarOps {
-        display: none;
+        display: flex;
         flex-direction: column;
         position: absolute;
         top: 60px;
         right: 2.5vh;
         background-color: #444;
-        padding: 2vh;
+        padding: 0;
         border-radius: 5px;
-        margin-right: 0vh;
         font-size: 2vh;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.5s ease-out, opacity 0.3s ease-out, padding 0.3s ease-out;
     }
+    
+    .MenuBarOps.show {
+        max-height: 300px;
+        opacity: 1;
+        padding: 2vh;
+    }
+    
 
     .MenuBarOps a{
         color: #d9d9d9;
