@@ -26,6 +26,7 @@ function Creditos(){
                     <a href="/"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="/"><i class="fa-brands fa-facebook"></i></a>
                     <a href="/"><i class="fa-brands fa-twitter"></i></a>
+                    <p style={{color: "#d9d9d9", fontSize: "90%"}}>Feito por: Grupo Gizi 👑</p>
                 </div>
             </footer>
         </>
