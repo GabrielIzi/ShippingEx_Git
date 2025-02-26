@@ -121,23 +121,23 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    position: relative; /* Para que o texto "OU" se posicione corretamente sobre as linhas */
-    margin: 20px 0; /* Espaçamento superior e inferior */
+    position: relative;
+    margin: 20px 0;
 }
 
 .linha_esquerda, .linha_direita {
     flex-grow: 1;
     border: 0;
-    border-top: 1px solid #fff; /* Cria as linhas horizontais */
+    border-top: 1px solid #fff;
 }
 
 .linha_com_texto span {
-    position: absolute; /* Posiciona o texto no meio das linhas */
-    background-color: #1e1e1e; /* Adiciona um fundo branco para cobrir a linha */
-    padding: 0 10px; /* Espaço ao redor do texto */
-    font-weight: bold; /* Deixa o texto em negrito */
-    color: #fff; /* Cor do texto */
-    font-size: 18px; /* Ajuste do tamanho da fonte, se necessário */
+    position: absolute;
+    background-color: #1e1e1e;
+    padding: 0 10px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
 }
 
 .OutrosLogins{
@@ -156,3 +156,24 @@
 .OutrosLogins i{cursor: pointer;}
 
 
+@media (max-width: 768px){
+    .Background{
+        display: none;
+    }
+    .PainelLogin{
+        width: 100%;
+    }
+    .label_float input {
+        min-width: 80%;
+        padding: 5%;
+    }
+    .PainelLogin2{
+        margin: 0 5%;
+    }
+    .BtnLogin1{
+        margin-left: 60%;
+    }
+    .PainelLogin img{
+        width: 30%;
+    }
+}
