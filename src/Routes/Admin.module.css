@@ -1,5 +1,5 @@
 .PagBody_1{
-    height: 80vh;
+    height: 100%;
     padding-top: 20vh;
 }
 
@@ -204,4 +204,48 @@ progress::-ms-fill {
     margin-left: 90%;
     padding: 2vh 3vh;
     border-radius: 5px;
+}
+
+@media (max-width: 768px){
+    .search_container{
+        padding: 0;
+        margin-left: -5%;
+    }
+    .search_container input{
+        font-size: 70%;
+        padding: 4% 10%;
+        width: 40%;
+        margin: 2vh 0;
+    }
+    .OpsPainel{
+        gap: 1vh;
+        font-size: 70%;
+        margin: 0 10%;
+    }
+    .VehStatus{
+        display: block;
+        height: 100%;
+        border-radius: 2vh;
+        
+    }
+    .VehStatus img{
+        width: 50%;
+        margin: 1vh 25%;
+        display: none;
+    }
+    .BtnAdd{
+        margin-left: 80%;
+    }
+    .InfosVeh{
+        font-size: 80%;
+    }
+    .OpColeta .MenuVeh{
+        margin: 2vh 0;
+    }
+    .MenuVeh{
+        margin: 2vh 15%;
+    }
+    .XAndLess a:nth-of-type(1){
+        margin-left: 60%;
+    }
 }

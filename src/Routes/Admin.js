@@ -171,7 +171,7 @@ function Admin(){
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
                                 </div>
                                 <p>📍 Barueri - SP</p>
                                 <p>🕒 Horário de Funcionamento: 08:00 às 23:00</p>
@@ -190,8 +190,8 @@ function Admin(){
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
                                 </div>
                                 <p>📍 Jandira - SP</p>
                                 <p>🕒 Horário de Funcionamento: 08:00 às 23:00</p>
@@ -211,7 +211,7 @@ function Admin(){
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
                                 </div>
                                 <p>📍 Itapevi - SP</p>
                                 <p>🕒 Horário de Funcionamento: 08:00 às 23:00</p>
@@ -251,7 +251,7 @@ function Admin(){
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
                                 </div>
                                 <p>📍 Salvador - BA</p>
                                 <p>🕒 Horário de Funcionamento: 08:00 às 23:00</p>
@@ -373,7 +373,7 @@ function Admin(){
                     <a className={styles.BtnAdd} style={{ display: activeTab != "funcionarios" ? "block" : "none" }}><i class="fa-solid fa-plus"></i></a>
                 </div>
             </section>
-            {/*<Creditos/>*/}
+            <Creditos/>
         </>
     );
 }
